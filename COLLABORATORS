@@ -1,0 +1,15 @@
+The code provided seems to be a script that performs text analysis and clustering on a collection of PDF files in the "smartcity" folder. It utilizes various libraries and methods for data preprocessing, clustering, and evaluation. Here are the collaborators involved in the code:
+
+    NLTK: The Natural Language Toolkit (NLTK) library is used for natural language processing tasks such as tokenization, stopword removal, and lemmatization.
+
+    numpy and pandas: These libraries are widely used for data manipulation and analysis. They provide data structures and functions for handling numerical operations and working with structured data.
+
+    PyPDF2: The PyPDF2 library is used to read and extract text from PDF files.
+
+    scikit-learn: The scikit-learn library is a popular machine learning framework in Python. It provides various clustering algorithms (K-means, Hierarchical, DBSCAN) for grouping data points based on their features. Additionally, it offers evaluation metrics (silhouette score, Calinski-Harabasz score, Davies-Bouldin score) to assess the quality of clustering results. It also includes utilities for text vectorization (TfidfVectorizer) and topic modeling (LatentDirichletAllocation).
+
+    os: The "os" module provides a way to interact with the operating system. In this code, it is used for file and folder manipulation.
+
+    warnings and logging: These modules are used to manage warnings and control the logging output.
+
+Note: These are the collaborators involved based on the code you provided. There might be additional collaborators that are not explicitly mentioned here but are indirectly required by the listed libraries or modules.
